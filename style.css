@@ -235,7 +235,7 @@ main .main-left {
   .card {
     display: flex;
     flex-direction: column;
-    flex: 0 0 50%;
+    flex: 0 0 45%;
     padding: 50px;
     border-radius: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
@@ -262,16 +262,12 @@ main .main-left {
     background-size: cover;
     background-position: 50%;  
   }
-
-  .card .card-title:hover {
-    filter: brightness(200%);
-  }
-
+ 
   .card:hover {
     box-shadow: -2px -2px 5px #424242;
     filter: brightness(50%);
   }
-  
+
   .card .card-title {
     color: white;
     font-family: 'Poppins', sans-serif;
